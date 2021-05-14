@@ -58,6 +58,33 @@
                 
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
+                        <form class="form js-speaker-form">
+                            <div class="form-field">
+                                <label for="name">Name
+                                    <svg class="mail-icon">
+                                        <use href="./images/sprite.svg#envelope"></use>
+                                    </svg>
+                                </label>
+                                <input type="text" name="name" id="name" placeholder="Иван Иваныч" />
+                            </div>
+                            
+                            
+                            
+                            <div class="form-field">
+                                <label for="tel">Phone</label>
+                                <input type="tel" name="tel" id="tel" placeholder="+7999-777-77-77">
+                            </div>
+                            
+                            
+                            <div class="form-field">
+                                <label for="mail">Mail</label>
+                                <input type="email" name="mail" id="mail" placeholder="example@mail.com">
+                            </div>
+
+                            <button type="submit">Оставить заявку</button>
+                        </form>
+
+
                         <button class="btn-close" data-modal-close></button>
                     </div>
                 </div>
